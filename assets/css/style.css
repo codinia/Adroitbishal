@@ -1437,6 +1437,15 @@ p {
     ;
 }
 
+.count-box .count-icon {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #fe8463;
+    font-size: 40px;
+    margin: auto;
+}
+
 .single-services .services-content .services-title {
     margin-top: 30px
 }
@@ -2528,39 +2537,40 @@ p.form-message.error.form-message.error {
 }
 
 .img-fluid {
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
 }
 
 .row .count-box {
-    padding: 20px 0px;
-    padding-top: 30px;
+    padding: 20px 5px;
+    /* padding-top: 30px; */
     justify-content: center;
-    background-color: #fe8464;
-    height: inherit;
+    background-color: #ffffff;
+    height: 277px;
     border-radius: 20px;
     margin-bottom: 20px;
-    border: 5px solid #f0f0f0;
+    border: 2px dashed #fe8484;
     position: relative;
 }
 
-.row .count-box::after {
+
+/* .row .count-box::after {
     content: "";
     position: absolute;
     top: 3px;
     left: -6px;
     height: 100%;
     width: 100%;
-    border: 5px solid #666;
+    border: 2px solid #fe8463;
     border-radius: 20px;
     transform: rotate(-15deg);
     z-index: -1;
-}
+} */
 
 .count-box i {
     display: block;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     /* float: left; */
     text-align: center;
 }
@@ -2569,29 +2579,33 @@ p.form-message.error.form-message.error {
     font-size: 50px;
     /* line-height: 40px; */
     display: block;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
+    /* font-weight: 700; */
+    color: #293651;
     /* margin-left: 50px; */
     text-align: center;
-    /* justify-content: center;*/
-    background-color: #fff;
-    border-radius: 50px;
+    /* justify-content: center; */
+    /* background-color: #fff; */
+    /* border-radius: 50px; */
     margin: 15px 15px 0px 15px;
 }
 
 .count-box p {
-    /*margin-top: 15px; */
+    /* margin-top: 15px; */
     /* justify-content: center; */
     padding: 15px 0 0 0;
     /* margin: 15px 0 0 50px; */
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    color: #000000;
+    /* font-family: Poppins, sans-serif; */
+    /* font-size: 16px; */
+    /* color: #000000; */
     text-align: center;
 }
 
+.ft-banner-about {
+    background-color: rgba(254, 132, 100, 1);
+}
+
 .ft-banner {
-    background-color: #fe8464;
+    background-color: rgba(254, 132, 100, 0.1);
     position: relative;
     z-index: 0;
 }

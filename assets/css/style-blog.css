@@ -1564,6 +1564,10 @@ a.box_btn:hover::before {
     width: 100%;
 }
 
+.widget-tags a {
+    width: 100%;
+}
+
 .pagination {
     justify-content: center;
     margin-top: 20px
